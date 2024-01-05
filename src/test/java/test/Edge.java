@@ -15,6 +15,6 @@ public class Edge {
 	System.out.println("url:"+driver.getCurrentUrl());
 	System.out.println("window handle id:"+driver.getWindowHandle());
 	//System.out.println(driver.getPageSource());
-	
+	driver.findElement(By.xpath("//span[@class='_ap3a _aaco _aacw _aad0 _aad7']")).click();
 	}
 }
